@@ -73,13 +73,14 @@ h1, h2, h3{
 
 @media (max-width: 1024px) {
     .logo, .logoo, .whatsapp {
-        padding-left: 300px;
+        padding-left: 350px;
+        padding-top: 20px;
     }
     .saludsa-logo {
-        padding-left: 400px;
+        padding-left: 420px;
     }
     .plan {
-        padding-right: 500px;
+        padding-right: 729px;
     }
 }
 
