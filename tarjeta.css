@@ -1,0 +1,54 @@
+html{
+    text-align: center;
+    background-color: ;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.logo{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    padding-left: 550px;
+}
+
+.logoo{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    padding-left: 450px;
+}
+
+.whatsapp{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    padding-left: 450px;
+}
+
+.saludsa-logo{
+    padding-left: 550px;
+    display: flex;
+    background-size: cover ;
+}
+
+.yo{
+    padding-left: 550px;
+    display: flex;
+    background-size: cover ;
+    padding-top: -1000px;
+}
+
+.plan{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    padding-right: 1000px;
+    flex-direction: column-reverse;
+}
