@@ -85,6 +85,23 @@ h1, h2, h3{
     .plan {
         padding-right: 729px;
     }
+    .titulo{
+        display: contents;
+    }
+    .plan{
+        display: contents;
+        padding-top: 20px;
+    }
+    .whatsapp{
+        display: flexbox;
+        padding-right: 355px;
+    }
+    .logo, .logoo{
+        display: contents;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 500px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -94,10 +111,10 @@ h1, h2, h3{
         align-items: center;
     }
     .titulo, .plan {
-        order: 1;
+        order: 2;
     }
     .logo, .logoo, .whatsapp, .saludsa-logo {
-        order: 2;
+        order: 1;
     }
 }
 
@@ -108,12 +125,15 @@ h1, h2, h3{
         align-items: center;
     }
     .titulo, .plan {
-        order: 1;
-    }
-    .logo, .logoo, .whatsapp, .saludsa-logo {
         order: 2;
     }
+    .logo, .logoo, .whatsapp, .saludsa-logo {
+        order: 1;
+    }
 }
+
+
+
 
 
 
