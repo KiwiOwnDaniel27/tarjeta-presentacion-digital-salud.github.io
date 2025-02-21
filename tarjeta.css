@@ -38,6 +38,7 @@ h1, h2, h3{
     background-size: cover;
     padding-left: 450px;
     align-items: center;
+    color: #00338D;
 }
 
 
@@ -58,6 +59,18 @@ h1, h2, h3{
     display: block;
     width: 0x;
     height: 0px;
+}
+
+
+.azul{
+    color: #00338D;
+}
+
+.azul-2{
+    color: #0073CF;
+}
+.rojo{
+    color: rgb(187, 17, 17);
 }
 
 
