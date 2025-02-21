@@ -1,0 +1,63 @@
+html{
+    text-align: center;
+    display: grid;    
+    padding-top: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: oblique;
+    background: url(IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.logo{
+    width: 0x;
+    height: 0px;
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    padding-left: 550px;
+    align-items: center;
+}
+
+.logoo{
+    width: 0x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    padding-left: 450px;
+}
+
+.whatsapp{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    padding-left: 450px;
+    align-items: center;
+}
+
+
+.saludsa-logo{
+    padding-left: 560px;
+    display: flex;
+    background-size: cover ;
+}
+
+.plan{
+    background: url(IMG/LOGO.jpg);
+    padding-right: 1005px;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.titulo{
+    display: block;
+    width: 0x;
+    height: 0px;
+}
+
+
