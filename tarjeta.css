@@ -1,6 +1,7 @@
 html{
     text-align: center;
     display: grid;    
+    padding-top: 0;
 }
 
 h1, h2, h3{
@@ -8,7 +9,7 @@ h1, h2, h3{
 }
 
 .logo{
-    width: 65x;
+    width: 0x;
     height: 65px;
     background: url(IMG/LOGO.jpg);
     background-size: cover;
@@ -16,7 +17,7 @@ h1, h2, h3{
 }
 
 .logoo{
-    width: 65x;
+    width: 0x;
     height: 65px;
     background: url(IMG/LOGO.jpg);
     background-size: cover;
@@ -37,18 +38,17 @@ h1, h2, h3{
     background-size: cover ;
 }
 
-.yo{
-    padding-left: 550px;
-    display: flex;
-    background-size: cover ;
-    padding-top: -1000px;
-}
-
 .plan{
-    width: 65px;
-    height: 65px;
     background: url(IMG/LOGO.jpg);
-    padding-left: 75px;
+    padding-right: 1005px;
     flex-direction: column;
     background-size: cover;
 }
+
+.titulo{
+    display: block;
+    width: 0x;
+    height: 0px;
+}
+
+
