@@ -41,7 +41,6 @@ h1, h2, h3{
     color: #00338D;
 }
 
-
 .saludsa-logo{
     padding-left: 560px;
     display: flex;
@@ -61,7 +60,6 @@ h1, h2, h3{
     height: 0px;
 }
 
-
 .azul{
     color: #00338D;
 }
@@ -72,5 +70,46 @@ h1, h2, h3{
 .rojo{
     color: rgb(187, 17, 17);
 }
+
+@media (max-width: 1024px) {
+    .logo, .logoo, .whatsapp {
+        padding-left: 300px;
+    }
+    .saludsa-logo {
+        padding-left: 400px;
+    }
+    .plan {
+        padding-right: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        display: contents;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo, .plan {
+        order: 1;
+    }
+    .logo, .logoo, .whatsapp, .saludsa-logo {
+        order: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        display: contents;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo, .plan {
+        order: 1;
+    }
+    .logo, .logoo, .whatsapp, .saludsa-logo {
+        order: 2;
+    }
+}
+
 
 
