@@ -13,6 +13,26 @@ html{
     background-attachment: fixed;
 }
 
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.plan h1{
+    font-size: 35px;
+}
+
+.plan h3{
+    font-size: 25px;
+}
+
+.logo h3{
+    font-size: 25px;
+}
+
 h1, h2, h3{
     text-align: center;
 }
